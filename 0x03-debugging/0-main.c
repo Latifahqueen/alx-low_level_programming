@@ -1,3 +1,4 @@
+#include <stdio.h>
 #include "main.h"
 /**
 * main - Test function for positive or negative
@@ -7,6 +8,7 @@ int main(void)
 {
 int i;
 i = 0;
+printf("Testing positive_or_negative() with i = %d\n", i);
 positive_or_negative(i);
 return (0);
 }
